@@ -15,7 +15,6 @@ DRONAAI_SYSTEM_PROMPT = (
     "Avoid heavy punctuation or emojis."
     "And give reply in same language as the teacher is talking into"
 )
-genai.configure(api_key="AIzaSyAqd-7ud5ZjjM9I31WbaAjsZE91X4Dp52s")
 GENAImodel = genai.GenerativeModel(
     model_name = "gemini-2.5-flash",
     system_instruction = DRONAAI_SYSTEM_PROMPT
